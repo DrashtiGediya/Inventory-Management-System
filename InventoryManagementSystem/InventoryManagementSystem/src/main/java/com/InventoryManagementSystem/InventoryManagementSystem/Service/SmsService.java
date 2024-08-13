@@ -12,6 +12,6 @@ public class SmsService {
     @Autowired
     private TwilioMessage message;
     public void sendSms(){
-      Message.creator(new PhoneNumber("+919875102048"),new PhoneNumber(message.getTwilioNumber()),"Your Order is Confirmed!!").create();
+      Message.creator(new PhoneNumber("+919875109748"),new PhoneNumber(message.getTwilioNumber()),"Your Order is Confirmed!!").create();
     }
 }
